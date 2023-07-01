@@ -1,0 +1,56 @@
+@media screen and (max-width: 1150px) {
+    example {
+        margin-top: 10vh;
+        flex-direction: column;
+        justify-self: center;
+        align-items: center;
+        width: 100vw;
+        padding: 0;
+        margin-left: 0;
+    }
+    .RightC{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        
+    }
+
+    .LeftC {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .RightC h1 {
+        text-align: center;
+        font-size: 4rem;
+        width: 100vw;
+        padding-left: 0;
+        margin-top: 25vh;
+        margin-left: 0;
+        border-left: 10px dotted #f5ab23;
+        overflow-x: hidden;
+    }
+
+    .laptop {
+        width: 70vw;
+        margin-top: 2vh;
+    }
+    .phone {
+        width: 5cap;
+        padding: 0;
+
+    }
+
+    .LeftC p {
+        width: 90%;
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 10px;
+        margin: 10px;
+        margin-bottom: 15vh;
+    }
+
+}

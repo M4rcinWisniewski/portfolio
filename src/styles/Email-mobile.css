@@ -1,0 +1,42 @@
+@media screen and (max-width: 1150px){
+    .feedback {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        align-items: center;
+        overflow: hidden;
+        height: 115vh;
+    }
+
+    .leftD {
+        display: flex;
+        /* justify-content: center;
+        align-items: center; */
+        text-align: center;
+    }
+
+    .leftD img {
+        display: none;
+    }
+    .feedback h1 {
+        width: 100%;
+        margin-left: -5px;
+        align-self: center;
+        justify-self: center;
+        text-align: center;
+        font-size: 4rem;
+        border-left: 10px dotted #d6951c;
+        /* padding: 0; */
+      }
+      textarea {
+        width: 80vw;
+        height: 10vh;
+        
+      }
+      .form {
+        margin: 20px;
+      }
+      input[type="submit"] {
+        width: 30vw;
+          }
+}

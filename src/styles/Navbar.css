@@ -1,0 +1,90 @@
+.hamburger {
+    position: fixed;
+    top: -45px;
+    left: 10px;
+    font-size: 45px;
+    z-index: 3;
+    cursor: pointer;
+}
+
+.nav--close {
+  width: 50px;
+  height: 50px;
+  z-index: 0;
+}
+
+nav {
+    position: relative;
+    z-index: 2;
+    
+  }
+
+.Nav--open {
+    position: fixed;
+    background-color: #181818;
+    height: 100%;
+    width: 25vw;
+    z-index: 1;
+    opacity: 99%;
+    color: #e6e6e6;
+    display: flex;
+    flex-direction: column;
+    
+}
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-right: 0;
+    padding: 0;
+    margin-top: 100px;
+    gap: 5vh;
+}
+.menu li {
+  padding: 10px;
+  font-size: 1.2rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.menu li:hover {
+  /* text-shadow: 1.5px 1px #c2881c; */
+  border-top: 1px solid #f5ab23 ;
+  border-bottom: 1px solid #f5ab23;
+  padding: 9.3px;
+}
+
+.change{
+  position: absolute;
+  top:93%;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  height: 33px;
+  background-color: #e6e6e6;
+  width:  80px;
+  border-radius: 20px;
+  cursor: pointer;
+  opacity: 99%;
+}
+
+.change:hover {
+  border: 2px solid #f5ab23;
+}
+
+.handle {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  color: #181818;
+  font-size: 20px;
+  padding: 0 5px 0;
+  transition: .5s;
+}
+
+
+  
